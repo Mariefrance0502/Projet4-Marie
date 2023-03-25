@@ -507,13 +507,15 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
-    border: 3px solid black;
+    border: 2px solid black;
 }
+
+
 .form-group 
 {
     display: flex;
     flex-direction: column;
+    box-shadow: 1px 1px 1px 1px grey; 
 }
 
 
@@ -710,9 +712,34 @@ h1.text-center-intro {
 }
 
 
+
+#bloc_formulaire_contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.contact p
+{
+    font-size: 20px;
+    text-align: center;
+}
+.contact h1
+{
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+
 .hero-bloc-text {
     font-size: 38px;
 }
+
+
 
 .hero-bloc-text-sub {
     font-size: 36px;
@@ -825,6 +852,11 @@ h4 {
 
 .tc-white {
 color: white;
+}
+
+
+.tc-black {
+    color: black
 }
 
 .btn-atomic-tangerine {
