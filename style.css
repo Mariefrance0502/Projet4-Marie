@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    
 }
 
 a:hover {
@@ -123,7 +123,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+.d-bloc a 
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -362,6 +362,27 @@ a:hover {
     z-index: 2;
 }
 
+
+.liens 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.col-sm-4_liens
+{
+margin-top: 20px;
+text-align: center;
+}
+
+.col-sm-4_liens ul
+{
+display: flex;
+flex-direction: row;
+gap: 23px;
+}
+
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -477,6 +498,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: white; 
 }
 
 .icon-lg {
@@ -513,9 +535,8 @@ button {
 
 .form-group 
 {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 1px 1px 1px 1px grey; 
+    display: block;
+    margin-bottom: 15px; 
 }
 
 
@@ -672,10 +693,9 @@ a {
 
 }
 
-.row ul{
-    display: flex;
-    flex-direction: row;
-}
+
+
+
 
 p.text-center-services {
 color: black; 
@@ -711,11 +731,15 @@ h1.text-center-intro {
     max-width: 1000px;
 }
 
-
+.formulaire
+{
+    display: block;
+    flex-direction: row;
+}
 
 #bloc_formulaire_contact
 {
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 50px;
@@ -756,7 +780,7 @@ h1.text-center-intro {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -779,6 +803,8 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-between;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -816,8 +842,12 @@ h4 {
 }
 
 .portfolio-thumb {
+
     margin-bottom: 24px;
 }
+
+
+
 
 .portfolio-row {
     margin-bottom: 44px;
@@ -905,6 +935,8 @@ color: white;
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1107,6 +1139,12 @@ color: white;
         width: 180px;
         height: 320px;
     }
+
+    .col-sm-6 {
+    padding-right: 41px;
+    padding-left: 15px;
+    }
+
 }
 
 @media (max-width: 400px) {
